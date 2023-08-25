@@ -17,7 +17,13 @@
     padding: 10px 20px 20px 20px;
   }
   .listing-location::before {
-    content: url("/assets/location-pin.svg") / "";
+    content: "";
+    background-image: url("/assets/images/loc.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 20px;
+    width: 30px;
   }
   
   section.listing a {
